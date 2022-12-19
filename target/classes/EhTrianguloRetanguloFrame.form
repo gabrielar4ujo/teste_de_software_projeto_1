@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="EhTrianguloRetanguloFrame">
+  <grid id="27dc6" binding="ehTrianguloRetanguloFrame" layout-manager="GridLayoutManager" row-count="13" column-count="10" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="569" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-13092808"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="548fe" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="8" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="28"/>
+          <foreground color="-1842205"/>
+          <text value="É triangulo retângulo?"/>
+        </properties>
+      </component>
+      <component id="aeb53" class="javax.swing.JButton" binding="voltarButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="65" height="40"/>
+            <preferred-size width="65" height="40"/>
+            <maximum-size width="65" height="40"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-11645362"/>
+          <enabled value="true"/>
+          <font size="12" style="0"/>
+          <foreground color="-1842205"/>
+          <horizontalAlignment value="0"/>
+          <iconTextGap value="0"/>
+          <text value="voltar"/>
+        </properties>
+      </component>
+      <component id="4c27c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="8" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14" style="0"/>
+          <foreground color="-1842205"/>
+          <text value="&lt;html&gt;Insira um lado a, b e c  e vamos dizer  &lt;br&gt;se é um triângulo retângulo&lt;html&gt;"/>
+        </properties>
+      </component>
+      <component id="2290b" class="javax.swing.JLabel" binding="valorAText">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1842205"/>
+          <text value="Valor de a:"/>
+        </properties>
+      </component>
+      <component id="da15b" class="javax.swing.JLabel" binding="valorBText">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1842205"/>
+          <text value="Valor de b:"/>
+        </properties>
+      </component>
+      <component id="89876" class="javax.swing.JTextField" binding="valorAInput">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="120" height="-1"/>
+            <preferred-size width="120" height="-1"/>
+            <maximum-size width="120" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <vspacer id="5a402">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="9" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="2777" class="javax.swing.JTextField" binding="valorBInput">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="120" height="-1"/>
+            <preferred-size width="120" height="-1"/>
+            <maximum-size width="120" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="a72f2" class="javax.swing.JLabel" binding="errorCText">
+        <constraints>
+          <grid row="6" column="7" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-4515012"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="819ab" class="javax.swing.JLabel" binding="errorAText">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-4515012"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="c5dcb" class="javax.swing.JButton" binding="calcularButton" default-binding="true">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="8" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="200" height="-1"/>
+            <preferred-size width="200" height="-1"/>
+            <maximum-size width="200" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-11645362"/>
+          <foreground color="-1842205"/>
+          <text value="Calcular"/>
+        </properties>
+      </component>
+      <vspacer id="1a948">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="8" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="505a8" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="8" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1842205"/>
+          <font size="26"/>
+          <foreground color="-1842205"/>
+          <text value="Resultado:"/>
+        </properties>
+      </component>
+      <vspacer id="26cc3">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="a996d" class="javax.swing.JLabel" binding="resultadoText">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="8" vsize-policy="6" hsize-policy="6" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="20" style="1"/>
+          <foreground color="-13978304"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Resultado ira aparecer aqui..."/>
+        </properties>
+      </component>
+      <component id="4e3f5" class="javax.swing.JLabel" binding="valorCText">
+        <constraints>
+          <grid row="4" column="7" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1842205"/>
+          <text value="Valor de c:"/>
+        </properties>
+      </component>
+      <component id="8cd35" class="javax.swing.JTextField" binding="valorCInput">
+        <constraints>
+          <grid row="5" column="7" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="120" height="-1"/>
+            <preferred-size width="120" height="-1"/>
+            <maximum-size width="120" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <hspacer id="c5f5d">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="deb2a">
+        <constraints>
+          <grid row="5" column="9" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="eeb46" class="javax.swing.JLabel" binding="errorBText">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-4515012"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <vspacer id="55fc">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="4" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="2" height="22"/>
+            <preferred-size width="2" height="22"/>
+            <maximum-size width="2" height="22"/>
+          </grid>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>
